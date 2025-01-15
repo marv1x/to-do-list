@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-color: #699bbd;
+}
+
+h3{
+    position: relative;
+    display:flex;
+    font-size: 75px;
+    justify-content: center;
+    padding: 5%;
+}
+
+.main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black; /* Задана ширина, стиль и цвет рамки */
+    color:black;
+    border-radius: 15px;
+    margin: 33%;
+    margin-top: 5%;   
+    background-color: white;
+    min-height: 600px;
+    max-height: 1000px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-left: 15px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #28a745;
+}
+
+.input-button{
+    text-align: center;
+    padding: 12px;
+    background-color: #28a745;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-left: 15px;
+    outline: none;
+    border-style: none;
+}
+
+
