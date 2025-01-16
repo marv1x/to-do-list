@@ -19,14 +19,14 @@ h3{
     position: relative;
     display: flex;
     flex-direction: column;
-    border: 5px solid black; /* Задана ширина, стиль и цвет рамки */
+    border: 3px solid black; /* Задана ширина, стиль и цвет рамки */
     color:black;
     border-radius: 15px;
     margin: 33%;
     margin-top: 5%;   
     background-color: white;
     min-height: 600px;
-    max-height: 1000px;
+    
 }
 
 .input-group {
@@ -51,7 +51,7 @@ input[type="text"]:focus {
     border-color: #28a745;
 }
 
-.input-button{
+ .button-style{
     text-align: center;
     padding: 12px;
     background-color: #28a745;
@@ -62,4 +62,10 @@ input[type="text"]:focus {
     border-style: none;
 }
 
-
+.input-information{
+    font-size: 35px;
+    border: 10px;
+    /* background-color: red; */
+    margin: 10px;
+    margin-left: 35px ;
+}

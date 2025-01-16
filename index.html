@@ -5,23 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-do list</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="main">
         <h3>✔️To-do list</h3>
             <div class="input-group">
                 <input type="text" id="MyInput" placeholder="Add new task">
-                <button class="input-button">Save</button>
+                <button class="button-style" id="add-task-btn">Save</button>
             </div>
             <div class="list-group">
-                <ul>
-                    1 ребенок
-                    2 ребенка
-                    3 ребенка
-                </ul>
-
+            <ul class="input-information" id="currentTask"></ul>
             </div>
+            <script src="script.js"></script>
     </div>
 </body>
 </html>
