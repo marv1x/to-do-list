@@ -38,7 +38,7 @@ h3{
 }
 
 input[type="text"] {
-    padding: 10px;
+    padding: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-right: 10px;
@@ -64,8 +64,43 @@ input[type="text"]:focus {
 
 .input-information{
     font-size: 35px;
-    border: 10px;
-    /* background-color: red; */
+     /* background-color: red;  */
     margin: 10px;
-    margin-left: 35px ;
+    /* margin-left: 35px ; */
+}
+
+li{
+    list-style-type: "👍";
+    border: 0.002px none gray;
+    border-radius: 12px;
+    margin: 2%;
+    box-shadow: 10px 10px 25px rgba(0,0,0,0.1);
+    padding: 3%;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+li:hover{
+    margin: 1.5%;
+}
+
+.Delete-button{
+    background-color: white;
+    color: gray;
+    border: none;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.Delete-button:hover{
+    color: red;
+}
+
+.SelectedStyleTask{
+    /* color: green; */
+}
+
+.SelectedStyleTask.completed{
+    text-decoration: line-through;
 }
