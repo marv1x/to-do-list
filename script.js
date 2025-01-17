@@ -26,7 +26,6 @@ const Tasks = document.getElementById('currentTask');
  }
 
  GetData();
-localStorage.clear();
 
 button.addEventListener('click', function(){
     const TaskText = inputText.value;
